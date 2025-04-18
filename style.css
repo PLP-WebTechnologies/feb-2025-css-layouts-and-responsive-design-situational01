@@ -105,6 +105,42 @@ a {
   color: #e67e22;
 }
 
+/* Footer Styles */
+footer {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-container p {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
 /* Media queries */
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -151,6 +187,12 @@ a {
 
   .item-description .price {
     font-size: 14px;
+  }
+
+  /* Responsive Footer */
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
   }
 }
 
